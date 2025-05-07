@@ -33,13 +33,16 @@ export default function Home() {
           alt="AcadChain Logo"
           className="h-6 sm:h-8 w-auto"
         />
-        <motion.button
+        <motion.a
+          href="https://bento.me/AcadLayerHQ"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-[#456FE7] text-xs sm:text-sm px-3 sm:px-4 py-2 hover:bg-[#4061FD] rounded-lg font-bold"
+          className="bg-[#456FE7] text-xs sm:text-sm px-3 sm:px-4 py-2 hover:bg-[#4061FD] rounded-lg font-bold inline-block text-center"
         >
           Join Us
-        </motion.button>
+        </motion.a>
       </header>
 
       <section className="relative w-full min-h-[80vh] sm:min-h-screen flex items-center justify-center bg-[#0B0B15] overflow-hidden">
