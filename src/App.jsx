@@ -30,7 +30,7 @@ export default function Home() {
       <header className="flex justify-between items-center px-4 sm:px-6 md:px-8 py-4 border-b border-gray-700">
         <img
           src="/logo.svg"
-          alt="AcadChain Logo"
+          alt="Acadlayer Logo"
           className="h-6 sm:h-8 w-auto"
         />
         <motion.a
@@ -87,7 +87,7 @@ export default function Home() {
             variants={textVariants}
             className="text-lg sm:text-xl md:text-3xl text-[#F1EBEB] font-bold mb-4 sm:mb-6"
           >
-            Welcome to AcadChain
+            Welcome to Acadlayer
           </motion.h2>
           <motion.h1
             variants={textVariants}
@@ -122,17 +122,17 @@ export default function Home() {
             variants={textVariants}
             className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 sm:mb-6"
           >
-            About AcadChain
+            About Acadlayer
           </motion.h2>
           <motion.p
             variants={textVariants}
             className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8"
           >
-            AcadChain is a decentralized education protocol revolutionizing
+            Acadlayer is a decentralized education protocol revolutionizing
             learning and skill verification through blockchain. It enables
             tokenized learning, decentralized governance, and zk-proof-based
             certifications. To ensure scalability, security, and
-            interoperability, we're building AcadChain—a dedicated subnet on
+            interoperability, we're building Acadlayer—a dedicated subnet on
             Avalanche's P-Chain—empowering global, verifiable, and accessible
             education.
           </motion.p>
@@ -335,8 +335,8 @@ export default function Home() {
             variants={textVariants}
             className="flex items-center space-x-2 mb-4 md:mb-0"
           >
-            <img src="/logo.svg" alt="AcadChain Logo" className="h-4 sm:h-5" />
-            <span>AcadChain</span>
+            <img src="/logo.svg" alt="Acadlayer Logo" className="h-4 sm:h-5" />
+            <span>Acadlayer</span>
             <span>Future of Knowledge</span>
           </motion.div>
           <motion.div
